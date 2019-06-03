@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     line-height: 28px;
     font-weight: 300;
     font-size: 14px;
@@ -239,8 +239,8 @@ ul, ol {
 
 
 ul.list-check {
-    
-    
+
+
 }
 
 ul.list-check li{
@@ -1181,6 +1181,10 @@ Resume Timeline
          -o-transform: rotate(45deg);
             transform: rotate(45deg);
 }
+
+.links a:hover{
+    color: white;
+}
 .links a:hover i::after {
     background-color: #68c3a3;
 }
@@ -1195,7 +1199,9 @@ Resume Timeline
     width: 100%;
     text-align: center;
 }
-
+i{
+    color:white;
+}
 .portfolio:hover .tt-overlay, 
 .portfolio:hover .links {
     opacity: 1;
@@ -1790,12 +1796,13 @@ u{
 }
 #quotes{
     padding-bottom: 50px;
-    font-family: Algerian;
-    color: #44c7f4;
+    font-family: 'Righteous', cursive;
+    color: #282828
 }
 #neo>h1{
-     font-weight: 700;
+    font-weight: 700;
     font-size:18 px;
     color:#68c3a3;
     padding-top: 12px;
+    font-family: 'Righteous', cursive;
 }
